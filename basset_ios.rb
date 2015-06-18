@@ -2,7 +2,7 @@ class BassetIos < Formula
   desc "Converts vector images to PNG and puts them in xcassets"
   homepage "https://github.com/Polidea/basset-ios"
   url "https://github.com/Polidea/basset-ios/archive/1.2.tar.gz"
-  sha256 "715764ebc2b9d795c77e2d15788396e327fe7992df10742e08aef0c5a3c4e400"
+  sha256 "31873b1c5b55a49745ca74b75f1c3e9a30ad175974ccd2edc9a91ae0ee2d9b98"
 
   depends_on :python if MacOS.version <= :snow_leopard
   depends_on "imagemagick"
