@@ -1,8 +1,8 @@
 class BassetIos < Formula
   desc "Converts vector images to PNG and puts them in xcassets"
   homepage "https://github.com/Polidea/basset-ios"
-  url "https://github.com/Polidea/basset-ios/archive/1.4.tar.gz"
-  sha256 "91aaa3bde73bb24b6bfc54dec7ef6644e9ffed82d73e09ddc8913d7e96f9a5e8"
+  url "https://github.com/Polidea/basset-ios/archive/1.4.1.tar.gz"
+  sha256 "be358c609b014b017ee136ee1a1225d5991c6ab2f870ec032005dab8737b99e2"
 
   depends_on :python if MacOS.version <= :snow_leopard
   depends_on "imagemagick"
@@ -14,8 +14,8 @@ class BassetIos < Formula
   end
 
   resource "Wand" do
-    url "https://pypi.python.org/packages/source/W/Wand/Wand-0.4.0.tar.gz"
-    sha256 "3ef8cbadb122808c123b33d34a9cc833a91eebb700ebea1d5d610fa807f55a89"
+    url "https://github.com/rameshdharan/wand/archive/154e1d2ae42722efe17c4824562b4c40a36e87aa.zip"
+    sha256 "fcc340145634644c784565a8feba7a02b24ae903aee633383d9df96313a438ff"
   end
 
   resource "PyYAML" do
