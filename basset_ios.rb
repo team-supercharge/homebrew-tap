@@ -5,7 +5,7 @@ class BassetIos < Formula
   sha256 "be358c609b014b017ee136ee1a1225d5991c6ab2f870ec032005dab8737b99e2"
 
   depends_on :python if MacOS.version <= :snow_leopard
-  depends_on "imagemagick"
+  depends_on "imagemagick" => "--with-librsvg"
   depends_on "ghostscript"
 
   resource "coloredlogs" do
