@@ -2,7 +2,7 @@ class BassetIos < Formula
   desc "Converts vector images to PNG and puts them in xcassets"
   homepage "https://github.com/team-supercharge/basset-ios"
   url "https://github.com/team-supercharge/basset-ios/archive/1.4.9.tar.gz"
-  sha256 "aca128ce7679103a46f8a3c26024365ed378fe4dc818f4fe0c149fb1e4764dfe"
+  sha256 "68b2f122813eb5401fa888e080333af4e1ba0e9e726ff51263e88828750c67d5"
 
   depends_on :python if MacOS.version <= :snow_leopard
   depends_on "imagemagick@6" => "--with-librsvg"
